@@ -1,0 +1,23 @@
+/* Keyframes for DownToUp animation */
+@keyframes DownToUp {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+/* Default state for all animated elements */
+h1, img, .box {
+    opacity: 0;
+    animation: DownToUp 1s forwards; /* Default animation setup */
+    animation-play-state: paused;   /* Pause animation initially */
+}
+
+/* Trigger the animation */
+.animate {
+    animation-play-state: running; /* Start animation */
+}

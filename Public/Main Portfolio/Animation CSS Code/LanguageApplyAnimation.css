@@ -1,0 +1,57 @@
+#LanguageHeading{
+    opacity: 0;
+    animation: bounce 1s forwards;
+    animation-delay: 0.5s;
+}
+
+#SectionHeading{
+    opacity: 0;
+    animation: bounce 1s forwards;
+    animation-delay: 1s;
+}
+
+#LanguageContainer .card .card-body h1 {
+    opacity: 0;
+    animation: flash 1s forwards;
+    animation-delay: 2s;
+}
+
+#LanguageContainer .card .card-body h4 {
+    opacity: 0;
+    animation: flash 1s forwards;
+    animation-delay: 3s;
+}
+
+#LanguageContainer .card .card-body p {
+    opacity: 0;
+    animation: flash 1s forwards;
+    animation-delay: 4s;
+}
+
+#FirstIcon,
+#EighthIcon {
+    opacity: 0;
+    animation: DownToUp 2s forwards;
+    animation-delay: 5s;
+}
+
+#SecondIcon,
+#SeventhIcon {
+    opacity: 0;
+    animation: TopToDown 2s forwards;
+    animation-delay: 5.3s;
+}
+
+#ThirdIcon,
+#FifthIcon {
+    opacity: 0;
+    animation: LeftToRight 2s forwards;
+    animation-delay: 5.6s;
+}
+
+#FourthIcon,
+#SixthIcon {
+    opacity: 0;
+    animation: RightToLeft 2s forwards;
+    animation-delay: 5.9s;
+}

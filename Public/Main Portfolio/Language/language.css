@@ -1,0 +1,41 @@
+#SectionHeading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#LanguageContainer{
+    margin-top: 2rem;
+    padding-top: 6rem;
+}
+
+#LanguageContainer .card {
+    background-color: black;
+}
+
+#MainShowCaseElements3 {
+    padding: 1rem;
+    display: flex;
+}
+
+#MainShowCaseElements3 .card-body {
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#MainShowCaseElements3 .card-body .card {
+    background-color: #1e293b;
+    border-radius: 12px;
+    text-align: center;
+    width: 8rem;
+    padding: 1rem;
+}
+
+#MainShowCaseElements3 .card-body .card i {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
