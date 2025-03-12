@@ -1,0 +1,60 @@
+#about{
+    padding-top: 6rem;
+    opacity: 1;
+}
+
+#AboutContainer1{
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#AboutContainer .card{
+    background-color: black;
+}
+
+#AboutContainer #DownloadButton{
+    box-shadow: 0px 4px 25px blue;
+}
+
+#AboutContainer .card-body img{
+    border-radius: 50%;
+    box-shadow: 0px 4px 25px white;
+}
+
+#AboutContainer #ImageBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 2.2rem; */
+}
+
+#AboutBoxes .card{
+    padding: 2rem;
+    border: 2px solid rgba(255,255,255,0.2);
+    cursor: pointer;
+    background-color: black;
+}
+
+#AboutBoxes .card:hover{
+    box-shadow: 0px 4px 30px white;
+}
+
+#AboutBoxes .card-title{
+    display: flex;
+    justify-content: space-between;
+}
+
+#AboutBoxes h5{
+    color: #16C47F;
+    font-weight: 700;
+}
+
+#ProjectIcon{
+    border-radius: 50%;
+    border: 2px solid white;
+    padding: 0.5rem;
+}
+

@@ -1,0 +1,92 @@
+#SectionHeading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    animation: bounce 1s forwards;
+    animation-delay: 1s;
+}
+
+#LanguageContainer{
+    margin-top: 2rem;
+    padding-top: 6rem;
+}
+
+#LanguageContainer .card {
+    background-color: black;
+}
+
+#LanguageContainer .card .card-body h1 {
+    opacity: 0;
+    animation: flash 1s forwards;
+    animation-delay: 2s;
+}
+
+#LanguageContainer .card .card-body h4 {
+    opacity: 0;
+    animation: flash 1s forwards;
+    animation-delay: 3s;
+}
+
+#LanguageContainer .card .card-body p {
+    opacity: 0;
+    animation: flash 1s forwards;
+    animation-delay: 4s;
+}
+
+
+#MainShowCaseElements3 {
+    padding: 1rem;
+    display: flex;
+}
+
+#MainShowCaseElements3 .card-body {
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#MainShowCaseElements3 .card-body .card {
+    background-color: #1e293b;
+    border-radius: 12px;
+    text-align: center;
+    width: 8rem;
+    padding: 1rem;
+    opacity: 0;
+}
+
+#MainShowCaseElements3 .card-body .card i {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+#FirstIcon,
+#EighthIcon {
+    animation: DownToUp 2s forwards;
+    animation-delay: 5s;
+    opacity: 1;
+}
+
+#SecondIcon,
+#SeventhIcon {
+    animation: TopToDown 2s forwards;
+    animation-delay: 5.3s;
+    opacity: 1;
+}
+
+#ThirdIcon,
+#FifthIcon {
+    animation: LeftToRight 2s forwards;
+    animation-delay: 5.6s;
+    opacity: 1;
+}
+
+#FourthIcon,
+#SixthIcon {
+    animation: RightToLeft 2s forwards;
+    animation-delay: 5.9s;
+    opacity: 1;
+}

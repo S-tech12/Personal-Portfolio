@@ -1,0 +1,42 @@
+#project{
+    padding-top: 6rem;
+}
+
+#ProjectContainer{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+}
+
+#ProjectContainer .card{
+    position: relative;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    border: 2px solid white;
+    width: 20rem;
+    height: 35rem;
+    opacity: 0;
+}
+
+#ProjectContainer .card .card-body h5,p{
+    opacity: 0;
+}
+#ProjectContainer .card .card-body #bottomDiv{
+    opacity: 0;
+}
+
+
+#ProjectContainer .card img{
+    height: 16rem;
+    opacity: 0;
+}
+
+#ProjectContainer .card #bottomDiv{
+    position: absolute;
+    bottom: 2%;
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}

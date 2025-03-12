@@ -1,0 +1,53 @@
+/* this is just for when we click on the home button so that it will not overlap with the navbar */
+
+#home{
+    padding: 1.5rem;
+}
+
+#HomeContainer{
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+    padding: 2rem;
+    height: 80%;
+    width:  100%;
+    /* border: 2px solid red; */
+}
+
+#HomeContainer .card{
+    background-color: transparent;
+    color: white;
+}
+
+#HomeContainer .card-body h1{
+    font-size: 65px;
+}
+
+
+#HomeContainer .card .card-body .icons{
+    display: flex;
+    gap: 2rem;
+    font-size: x-large;
+}
+
+#HomeContainer .card .card-body .icons p{
+    height: 8%;
+    width: 9%;
+    border-radius: 30%;
+    box-shadow: 2px 2px 8px #7C00FE;
+    text-align: center;
+    cursor: pointer;
+    transition: box-shadow 1s ease-in-out;
+}
+
+.container .card .card-body .icons p:hover{
+    box-shadow: 2px 2px 8px white;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px; /* Optional: Add rounded corners */
+    background-color: transparent;
+    z-index: 0;
+}

@@ -1,0 +1,59 @@
+#FirstProject{
+    animation: RightToLeft 2s forwards;
+    animation-delay: 2s;
+}
+
+#FirstProject img{
+    animation: DownToUp 2s forwards;
+    animation-delay: 2.2s;
+}
+
+#FirstProject .card-body h5,p{
+    animation: LeftToRight 2s forwards;
+    animation-delay: 2.5s;
+}
+
+#FirstProject #bottomDiv{
+    animation: LeftToRight 2s forwards;
+    animation-delay: 3s;
+}
+
+#SecondProject{
+    animation: RightToLeft 2s forwards;
+    animation-delay: 2s;
+}
+
+#SecondProject img{
+    animation: DownToUp 2s forwards;
+    animation-delay: 2.2s;
+}
+
+#SecondProject .card-body h5,p{
+    animation: LeftToRight 2s forwards;
+    animation-delay: 2.5s;
+}
+
+#SecondProject #bottomDiv{
+    animation: LeftToRight 2s forwards;
+    animation-delay: 3s;
+}
+
+#ThirdProject{
+    animation: RightToLeft 2s forwards;
+    animation-delay: 2s;
+}
+
+#ThirdProject img{
+    animation: DownToUp 2s forwards;
+    animation-delay: 2.2s;
+}
+
+#ThirdProject .card-body h5,p{
+    animation: LeftToRight 2s forwards;
+    animation-delay: 2.5s;
+}
+
+#ThirdProject #bottomDiv{
+    animation: LeftToRight 2s forwards;
+    animation-delay: 3s;
+}

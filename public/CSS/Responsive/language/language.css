@@ -1,0 +1,57 @@
+@media screen and (max-width:992px) {
+    #LanguageContainer .row h1{
+        font-size: 30px;
+    }
+    #LanguageContainer .row h4{
+        font-size: 15px;
+    }
+    #LanguageContainer .row p{
+        font-size: 10px;
+    }
+
+    .row{
+        flex-direction: column;
+    }
+
+    #parentOfLanguage{
+        width: 50rem;
+    }
+
+    #MainShowCaseElements3 .card{
+        width: 7rem;
+        padding: 0.5rem;
+    }
+
+    #MainShowCaseElements3 .card i{
+        font-size: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width:370px){
+    #MainShowCaseElements3{
+        padding: 0%;
+    }
+    #MainShowCaseElements3 .card{
+        width: 7rem;
+        padding: 0.5rem;
+    }
+
+    #MainShowCaseElements3 .card i{
+        font-size: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width:338px){
+    #MainShowCaseElements3{
+        padding: 0rem;
+    }
+
+    #MainShowCaseElements3 .card{
+        width: 6rem;
+        padding: 0.5rem;
+    }
+}

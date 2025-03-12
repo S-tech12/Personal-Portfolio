@@ -1,0 +1,22 @@
+@media screen and (max-width:992px) {
+    .container .card-body h1{
+        font-size: 45px;
+    }
+}
+@media screen and (max-width:768px) {
+    .container .card-body h1{
+        font-size: 35px;
+    }
+}
+@media screen and (max-width:576px) {
+    .container .card-body h1{
+        font-size: 65px;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .container-fluid{
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+}

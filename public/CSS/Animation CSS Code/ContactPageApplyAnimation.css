@@ -1,0 +1,61 @@
+#ContactContainer .card-header{
+    opacity: 0;
+    animation: flash 4s forwards;
+    animation-delay: 1s;
+}
+#ContactContainer .card-header2{
+    opacity: 0;
+    animation: flash 4s forwards;
+    animation-delay: 1s;
+}
+
+#ContactContainer form .input-group,#emailHelp{
+    opacity: 0;
+    animation: LeftToRight 2s forwards;
+    animation-delay: 1.5s;
+}
+
+#ContactContainer form button{
+    opacity: 0;
+    animation: flash 3s forwards;
+    animation-delay: 2s;
+}
+
+
+#ContactWhatsapp .card-title ,.card-text{
+    opacity: 0;
+    animation: flash 3s forwards;
+    animation-delay: 2s;
+}
+
+#ContactWhatsapp .text-center a ,i{
+    opacity: 0;
+    animation: DownToUp 3s forwards;
+    animation-delay: 2s;
+}
+
+#ContactElements #Instagram{
+    opacity: 0;
+    animation: LeftToRight 3s forwards;
+    animation-delay: 2s;
+}
+#ContactElements #Threads{
+    opacity: 0;
+    animation: RightToLeft 3s forwards;
+    animation-delay: 2s;
+}
+#ContactElements #Github{
+    opacity: 0;
+    animation: LeftToRight 3s forwards;
+    animation-delay: 2s;
+}
+#ContactElements #LinkedIn{
+    opacity: 0;
+    animation: RightToLeft 3s forwards;
+    animation-delay: 2s;
+}
+#ContactElements #Facebook{
+    opacity: 0;
+    animation: LeftToRight 3s forwards;
+    animation-delay: 2s;
+}

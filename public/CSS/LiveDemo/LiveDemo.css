@@ -1,0 +1,29 @@
+.videoDiv {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-Color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-Items: center;
+    justify-Content: center;
+    z-Index: 1000;
+}
+
+.previewvideo {
+    height: 80%;
+    width: 80%;
+}
+
+.closeButton {
+    position: absolute;
+    background-Color: #FF4C4C;
+    top: 10px;
+    right: 10px;
+    padding: 10px 20px;
+    font-Size: 16px;
+    color: white;
+    border-Radius: 5px;
+    cursor: pointer;
+}

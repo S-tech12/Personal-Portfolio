@@ -1,0 +1,59 @@
+#contactUs{
+    margin-top: 2rem;
+    padding-top: 6rem;
+}
+
+#ContactForm,#ContactWhatsapp{
+    margin-top: 2rem;
+}
+
+#ContactForm,#ContactElements,#ContactWhatsapp{
+    opacity: 0;
+    border-radius: 12px;
+    background-color: rgba(30, 41, 59,0.5);
+    padding: 1.5rem;
+    animation: TopToDown 2s forwards;
+}
+
+#ContactForm .card-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+#ContactForm .form-control{
+    background-color: transparent;
+    color: white;
+    font-size: larger;
+}
+
+#ContactForm .form-control :focus{
+    background-color: transparent;
+    color: white;
+}
+
+#form-icons{
+    background-color: black;
+    color: white;
+}
+
+#ConnectionElement {
+    border: 2px solid white;
+    padding: 1rem;
+}
+
+#ContactElements .card-body{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem 5rem;
+}
+#ContactElements .card-body .card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    height: 5rem;
+    font-size: larger;
+    background-color: #1e293b;
+    border-radius: 12px;
+    cursor: pointer;
+}

@@ -1,0 +1,53 @@
+#HomeContainer .card-body h1{
+    animation: DownToUp 2s forwards;
+    animation-delay: 1s;
+    opacity: 0;
+}
+
+#HomeContainer .card-body h4{
+    animation: DownToUp 2s forwards;
+    animation-delay: 1.3s;
+    opacity: 0;
+}
+
+#HomeContainer .card-body #FirstP{
+    animation: DownToUp 2s forwards;
+    animation-delay: 1.7s;
+    opacity: 0;
+}
+
+#HomeContainer .card-body #SecondP{
+    animation: DownToUp 2s forwards;
+    animation-delay: 2.0s;
+    opacity: 0;
+}
+
+#HomeContainer .card-body #ThirdP{
+    animation: DownToUp 2s forwards;
+    animation-delay: 2.3s;
+    opacity: 0;
+}
+
+#HomeContainer .card-body .icons .FourthP{
+    animation: DownToUp 2s forwards;
+    animation-delay: 2.6s;
+    opacity: 0;
+}
+
+#HomeContainer .card-body .icons .FifthP{
+    animation: DownToUp 2s forwards;
+    animation-delay: 2.7s;
+    opacity: 0;
+}
+#HomeContainer .card-body .icons .SixthP{
+    animation: DownToUp 2s forwards;
+    animation-delay: 2.8s;
+    opacity: 0;
+}
+
+
+#HomeContainer .card-body video{
+    animation: RightToLeft 3s forwards;
+    animation-delay: 1.5s;
+    opacity: 0;
+}

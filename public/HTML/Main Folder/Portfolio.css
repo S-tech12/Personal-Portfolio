@@ -1,0 +1,32 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: black;
+    color: white;
+    height: 100vh;
+    overflow: auto;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+#home{
+    margin-top: 3rem;
+}
+
+#language{
+    margin-top: 3rem;
+    padding-top: 8rem;
+}
+
+section{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.container-fluid{
+    transition: background-color 2s ease;
+}

@@ -1,0 +1,29 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    background-color: rgba(128, 128, 128,0.5);
+
+}
+
+.container-fluid .navbar-brand{
+    font-size: 40px;
+    color: #00FFFF;
+    transition: color 1.5s ease-in-out;
+    /* color: #FFD700; */
+}
+
+.container-fluid .navbar-brand:hover{
+    color: #FFD700;
+}
+
+.container-fluid ul{
+    gap: 1.5rem;
+}
+
+.container-fluid ul li a{
+    font-size: 20px;
+}

@@ -1,0 +1,23 @@
+@media screen and (max-width:992px) {
+    #HomeContainer .card-body h1{
+        font-size: 40px;
+    }
+    #HomeContainer .card-body h4{
+        font-size: 18px;
+    }
+    #HomeContainer .card-body .card-text{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    #HomeContainer .card-body h1{
+        font-size: 65px;
+    }
+    #HomeContainer .card-body h4{
+        font-size: calc(1.275rem + .3vw);
+    }
+    #HomeContainer .card-body .card-text{
+        font-size: 1rem;
+    }
+}

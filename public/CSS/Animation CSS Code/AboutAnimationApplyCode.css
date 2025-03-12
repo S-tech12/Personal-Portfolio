@@ -1,0 +1,44 @@
+#namePart1{
+    font-size: 30px;
+    animation: DownToUp 2s forwards;
+    animation-delay: 1s;
+    opacity: 0;
+}
+
+#namePart2{
+    animation: TopToDown 2s forwards;
+    animation-delay: 1.3s;
+    opacity: 0;
+}
+
+#DownloadButton{
+    animation: flash 2s forwards;
+    animation-delay: 1.6s;
+    opacity: 0;
+}
+
+img{
+    animation: LeftToRight 2s forwards;
+    animation-delay: 2s;
+    opacity: 0;
+}
+
+#FirstBox{
+    animation: LeftToRight 2s forwards;
+    animation-delay: 3s;
+    opacity: 0;
+    
+}
+
+#SecondBox{
+    animation: DownToUp 2s forwards;
+    animation-delay: 3.4s;
+    opacity: 0;
+}
+#ThirdBox{
+    animation: RightToLeft 2s forwards;
+    animation-delay: 3.8s;
+    opacity: 0;
+}
+
+

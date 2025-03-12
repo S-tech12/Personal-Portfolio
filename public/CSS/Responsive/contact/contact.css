@@ -1,0 +1,28 @@
+@media screen and (max-width:1056px){
+    #ContactElements #Instagram{
+        width: 8rem;
+    }
+    #ContactElements #Threads{
+        width: 8rem;
+    }
+    #ContactElements #Github{
+        width: 8rem;
+    }
+    #ContactElements #LinkedIn{
+        width: 8rem;
+    }
+    #ContactElements #Facebook{
+        width: 8rem;
+    }
+}
+
+@media screen and (max-width:992px){
+    #ContactForm,#ContactWhatsapp,#ContactElements{
+        width: 30rem;
+    }
+}
+@media screen and (max-width:500px){
+    #ContactForm,#ContactWhatsapp,#ContactElements{
+        width: 20rem;
+    }
+}
