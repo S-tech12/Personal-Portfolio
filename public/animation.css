@@ -41,6 +41,7 @@
     .container .heading .span{
         font-size: 25px;
     }
+    
 }
 
 @media screen and (max-width:350px) {
@@ -63,6 +64,47 @@
     .container .icons{
         font-size: large;
     }
-    
+}
+
+@media screen and (max-width:230px) {
+    .container .icons p {
+        width: 20%;
+        box-shadow: 2px 2px 4px black;
+    }
+    .container .heading .h1{
+        font-size: 16px;
+    }
+    .container .heading .span{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:135px) {
+    .container .icons p {
+        box-shadow: 2px 2px 4px black;
+    }
+    .container .icons{
+        font-size:small;
+    }
+    .container .heading .h1{
+        font-size: 12px;
+    }
+    .container .heading .span{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:100px) {
+    .container .icons p {
+        box-shadow: 2px 2px 4px black;
+    }
+    .container .icons{
+        font-size:smaller;
+    }
+    .container .heading .h1{
+        font-size: 10px;
+    }
+    .container .heading .span{
+        font-size: 10px;
+    }
 }
 
